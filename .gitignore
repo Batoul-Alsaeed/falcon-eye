@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Videos
+*.mp4
+dashboard/public/sample-drone.mp4
+
+# Node
+node_modules/
+dist/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# VS Code
+.vscode/
