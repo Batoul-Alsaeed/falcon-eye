@@ -1,5 +1,5 @@
  
-# 🦅 Falcon Eye  
+# Falcon Eye  
 **Centralized In-Box Drone Surveillance & Response System**
 
 > **Built by the Saudi Falcons behind the project:**  
@@ -13,10 +13,6 @@ The system delivers **real-time video streaming, AI-powered detection & tracking
 ## 📌 Project Vision
 
 Falcon Eye was designed to support **smart security operations** by enabling rapid, mobile aerial awareness without deploying human operators on-site.
-::wq
-
-
-
 
 It enables authorities and organizations to:
 - Deploy drones directly from vehicles
@@ -27,7 +23,7 @@ It enables authorities and organizations to:
 
 ---
 
-## 🧠 Core Capabilities
+## Core Capabilities
 
 - Centralized command & control
 - Vehicle-mounted **in-box drone deployment**
@@ -38,7 +34,7 @@ It enables authorities and organizations to:
 
 ---
 
-## 🏗️ System Architecture (High-Level)
+## System Architecture (High-Level)
 
 ```
 ┌───────────────────────────────┐
@@ -75,7 +71,7 @@ It enables authorities and organizations to:
 
 ---
 
-## 🧩 Technology Stack
+## Technology Stack
 
 ### Backend
 - **Python 3.11**
@@ -99,9 +95,9 @@ It enables authorities and organizations to:
 
 ---
 
-## 🎯 System Components
+## System Components
 
-### 1️⃣ Drone Control Module
+### 1.Drone Control Module
 Handles all low-level drone operations:
 - Takeoff / Land
 - Movement (X, Y, Z)
@@ -113,7 +109,7 @@ Powered by **DJITelloPy**.
 
 ---
 
-### 2️⃣ Video Streaming Module
+### 2.Video Streaming Module
 - Drone streams live video via **UDP**
 - Backend ingests frames using OpenCV
 - Frames are forwarded to:
@@ -122,7 +118,7 @@ Powered by **DJITelloPy**.
 
 ---
 
-### 3️⃣ AI Detection & Tracking
+### 3.AI Detection & Tracking
 - **YOLOv8** detects:
   - Humans
   - Vehicles
@@ -136,7 +132,7 @@ Powered by **DJITelloPy**.
 
 ---
 
-### 4️⃣ Backend API (FastAPI)
+### 4.Backend API (FastAPI)
 
 Example endpoints:
 ```http
@@ -156,7 +152,7 @@ Supports:
 
 ---
 
-### 5️⃣ Frontend Dashboard
+### 5.Frontend Dashboard
 
 Key features:
 
@@ -170,7 +166,7 @@ Built with **React + Vite** for high performance.
 
 ---
 
-## 🔄 Data Flow
+## Data Flow
 
 1. Drone launches from vehicle
 2. Live video streamed via UDP
@@ -182,7 +178,7 @@ Built with **React + Vite** for high performance.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Backend Setup
 
@@ -205,7 +201,7 @@ npm run dev
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 falcon-eye/
@@ -228,7 +224,7 @@ falcon-eye/
 
 ---
 
-## 🔐 Security Considerations
+## Security Considerations
 
 * Controlled access to drone commands
 * Separation of control & view layers
@@ -237,7 +233,7 @@ falcon-eye/
 
 ---
 
-## 📈 Scalability & Future Enhancements
+## Scalability & Future Enhancements
 
 * Multi-drone orchestration
 * Autonomous patrol routes
@@ -249,7 +245,7 @@ falcon-eye/
 
 ---
 
-## 🧪 Use Cases
+## Use Cases
 
 * Smart city surveillance
 * Emergency & disaster response
@@ -259,7 +255,7 @@ falcon-eye/
 
 ---
 
-## 👥 Team
+## Team
 
 **Saudi Falcons behind the project**
 
@@ -273,7 +269,7 @@ Falcon Eye reflects a **senior-level engineering approach**, combining real-time
 
 ---
 
-## 📜 License
+## License
 
 Private / Proprietary  
 All rights reserved.
@@ -281,9 +277,9 @@ All rights reserved.
 ---
 
 *If you want next:*
-- 🧭 **Sequence diagrams**
-- 📊 **AI pipeline deep-dive**
-- 🐳 **Docker & deployment README**
-- 🎯 **Hackathon / pitch-ready technical summary**
+- **Sequence diagrams**
+- **AI pipeline deep-dive**
+- **Docker & deployment README**
+- **Hackathon / pitch-ready technical summary**
 
-*Just say the word, Saudi Falcon 🦅*
+*Just say the word, Saudi Falcon *
