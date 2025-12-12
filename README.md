@@ -10,7 +10,7 @@ The system delivers **real-time video streaming, AI-powered detection & tracking
 
 ---
 
-## 📌 Project Vision
+## Project Vision
 
 Falcon Eye was designed to support **smart security operations** by enabling rapid, mobile aerial awareness without deploying human operators on-site.
 
