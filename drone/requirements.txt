@@ -1,3 +1,0 @@
-djitellopy
-fastapi
-uvicorn

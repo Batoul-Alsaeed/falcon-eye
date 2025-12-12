@@ -1,0 +1,5 @@
+# config.py
+
+TELLO_TIMEOUT = 10
+SAFE_ALTITUDE_CM = 50
+USE_SIMULATION = True
