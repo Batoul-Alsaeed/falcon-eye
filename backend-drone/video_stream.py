@@ -1,5 +1,4 @@
 # video_stream.py
-
 import cv2
 from ultralytics import YOLO
 from tello_connection import connect_tello
